@@ -1,3 +1,4 @@
+
 # HR SQL Analytics Project
 
 ## 📌 Project Overview
@@ -25,6 +26,21 @@ Built a relational HR analytics database to analyze employee salaries, performan
 - `schema.sql` – HR database schema and table design
 - `queries.sql` – Advanced SQL analysis queries
 - `dataset.csv` – Sample HR dataset
+
+- # Employee Management System - SQL Analysis
+
+## Project Overview
+This project involves designing a relational database for an Employee Management System. The goal was to structure data efficiently to track departments, job roles, and employee hierarchies.
+
+## 📊 Database Design (ER Diagram)
+Below is the visual structure of the database:
+
+![ER Diagram](ER_Diagram_Employee.PNG.jpeg)
+
+## 🛠️ Key Features
+* **Normalized Tables:** Separated into Departments, Jobs, and Employees to reduce data redundancy.
+* **Hierarchical Tracking:** Used a self-referencing `manager_id` to track organizational structure.
+* **Relational Integrity:** Implemented Primary and Foreign Keys to ensure data accuracy.
 
 ## 🎯 Outcome
 Demonstrates hands-on SQL analytics experience, advanced querying skills, and the ability to convert HR data into measurable business insights—aligned with entry-level Data Analyst role expectations.
